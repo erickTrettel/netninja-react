@@ -1,1 +1,1 @@
-Complete React Tutorial (& Redux) from The Net Ninja
+Complete React Tutorial (& Redux) by The Net Ninja
