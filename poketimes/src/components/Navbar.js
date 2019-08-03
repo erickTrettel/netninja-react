@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 
 // NOTE: we can't push to the history of props by default because Navbar is not a Route (in App.js)
 // which means that it doesn't receive the nested attributes of React Router
@@ -13,7 +13,7 @@ const Navbar = (props) => {
     return (
         <nav className="nav-wrapper red darken-3">
             <div className="container">
-                <a className="brand-logo">Poke'Times</a>
+                <a href className="brand-logo">Poke'Times</a>
                 <ul className="right">
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
